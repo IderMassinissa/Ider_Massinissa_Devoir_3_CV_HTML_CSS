@@ -6,30 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV - Prenom Nom</title>
     <meta name="description" content="CV de Prenom Nom - Développeur Web et Web Mobile">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <div class="cv">
+
         <header>
             <div>
-                <img src="assets/img/profile_picture.jpg" alt="Photo de profil de Massinissa Ider">
+                <img src="assets/img/profile_picture.jpg" alt="Photo de profil de Prenom Nom">
             </div>
 
             <div>
                 <h1>Prenom Nom</h1>
                 <h2>Développeur Web et Web Mobile</h2>
 
-                <ul>
-                    <li><a href="mailto:ider.massinissa@hotmail.com">Mail</a></li>
-                    <li><a href="tel:+33XXXXXXXXX">Téléphone</a></li>
-                    <li><a href="https://www.google.com/maps?q=Paris" target="_blank"
+                <ul class="contact">
+                    <li>
+                        <img src="assets/img/enveloppe.png" alt="">
+                        <a href="mailto:ider.massinissa@hotmail.com">Mail</a>
+                    </li>
+                    <li>
+                        <img src="assets/img/appel-telephonique.png" alt="">
+                        <a href="tel:+33XXXXXXXXX">Téléphone</a>
+                    </li>
+                    <li>
+                        <img src="assets/img/accueil.png" alt="">
+                        <a href="https://www.google.com/maps?q=Paris" target="_blank"
                             rel="noopener noreferrer">Adresse</a>
                     </li>
-                    <li>Permis B</li>
+                    <li>
+                        <img src="assets/img/voiture.png" alt="">
+                        <span>Permis B</span>
+                    </li>
                 </ul>
             </div>
         </header>
@@ -79,13 +93,9 @@
             <div class="content">
                 <section>
                     <h2>Profil</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum vitae repellat, voluptas porro
-                        repellendus dicta similique consectetur aspernatur id placeat fuga quia sint obcaecati amet in?
-                        Id eum adipisci incidunt.</p>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum vitae repellat, voluptas porro
-                        repellendus dicta similique consectetur aspernatur id placeat fuga quia sint obcaecati amet in?
-                        Id eum adipisci incidunt.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
                 </section>
+
                 <section>
                     <h2>Formations</h2>
 
@@ -113,13 +123,14 @@
                         <div class="item-right">1983</div>
                     </div>
                 </section>
+
                 <section>
                     <h2>Stages</h2>
 
                     <div class="item">
                         <div class="item-left">
                             <h3>Gestionnaire de paye</h3>
-                            <p>Société Truc & Machin</p>
+                            <p>Société Truc &amp; Machin</p>
                         </div>
                         <div class="item-right">Mars 2022 - Avril 2022</div>
                     </div>
@@ -132,6 +143,7 @@
                         <div class="item-right">Janvier 2021 - Février 2021</div>
                     </div>
                 </section>
+
                 <section>
                     <h2>Expérience professionnelle</h2>
 
@@ -146,7 +158,7 @@
                     <div class="item">
                         <div class="item-left">
                             <h3>Chauffeur - Livreur</h3>
-                            <p>Transport Nénès & Fils</p>
+                            <p>Transport Nénès &amp; Fils</p>
                         </div>
                         <div class="item-right">Septembre 2021 - Décembre 2021</div>
                     </div>
@@ -164,14 +176,21 @@
         </main>
 
         <footer>
-            <div>
-                <a href="#">LinkedIn</a>
-                <a href="#">GitHub</a>
-                <a href="#">Instagram</a>
+            <div class="social">
+                <a href="#" aria-label="LinkedIn">
+                    <img src="assets/img/linkedin.png" alt="">
+                </a>
+                <a href="#" aria-label="GitHub">
+                    <img src="assets/img/github.png" alt="">
+                </a>
+                <a href="#" aria-label="Instagram">
+                    <img src="assets/img/instagram.png" alt="">
+                </a>
             </div>
 
             <p>Mis à jour le : 02/03/2026</p>
         </footer>
+
     </div>
 </body>
 
